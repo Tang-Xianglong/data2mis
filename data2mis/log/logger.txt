@@ -1,0 +1,113 @@
+2017-08-13 11:31:53,981 - process2mis.py[line:66] - INFO: reading PERSON info......
+2017-08-13 11:31:53,982 - process2mis.py[line:66] - INFO: reading COMPANY info......
+2017-08-13 11:31:53,982 - process2mis.py[line:66] - INFO: reading SCHOOL info......
+2017-08-13 11:31:53,982 - process2mis.py[line:77] - INFO: total read 3 tables info;
+2017-08-13 11:31:53,982 - process2mis.py[line:78] - INFO: **************************************************
+2017-08-13 11:31:53,982 - process2mis.py[line:83] - INFO: reading PERSON column info......
+2017-08-13 11:31:53,988 - table.py[line:49] - INFO: read PERSON columns success
+2017-08-13 11:31:53,988 - process2mis.py[line:85] - INFO: read PERSON column info success
+2017-08-13 11:31:53,988 - process2mis.py[line:83] - INFO: reading COMPANY column info......
+2017-08-13 11:31:53,996 - table.py[line:49] - INFO: read COMPANY columns success
+2017-08-13 11:31:53,996 - process2mis.py[line:85] - INFO: read COMPANY column info success
+2017-08-13 11:31:53,996 - process2mis.py[line:83] - INFO: reading SCHOOL column info......
+2017-08-13 11:31:54,002 - table.py[line:49] - INFO: read SCHOOL columns success
+2017-08-13 11:31:54,002 - process2mis.py[line:85] - INFO: read SCHOOL column info success
+2017-08-13 11:31:54,002 - process2mis.py[line:106] - INFO: **************************************************
+2017-08-13 11:31:54,002 - process2mis.py[line:107] - INFO: generate PERSON sql str;
+2017-08-13 11:31:54,002 - table.py[line:94] - INFO: generate table PERSON sql success, sql:
+create table PERSON (
+name VARCHAR(20),
+age INT,
+address VARCHAR(40),
+favorite VARCHAR(20),
+birthday DATE,
+salary DECIMAL(14, 2),
+eydt DATETIME,
+);
+
+2017-08-13 11:31:54,002 - process2mis.py[line:106] - INFO: **************************************************
+2017-08-13 11:31:54,002 - process2mis.py[line:107] - INFO: generate COMPANY sql str;
+2017-08-13 11:31:54,003 - table.py[line:94] - INFO: generate table COMPANY sql success, sql:
+create table COMPANY (
+name VARCHAR(20),
+age INT,
+address VARCHAR(40),
+favorite VARCHAR(20),
+birthday DATE,
+salary DECIMAL(14, 2),
+eydt DATETIME,
+);
+
+2017-08-13 11:31:54,003 - process2mis.py[line:106] - INFO: **************************************************
+2017-08-13 11:31:54,003 - process2mis.py[line:107] - INFO: generate SCHOOL sql str;
+2017-08-13 11:31:54,003 - table.py[line:94] - INFO: generate table SCHOOL sql success, sql:
+create table SCHOOL (
+name VARCHAR(20),
+age INT,
+address VARCHAR(40),
+favorite VARCHAR(20),
+birthday DATE,
+salary DECIMAL(14, 2),
+eydt DATETIME,
+);
+
+2017-08-13 11:31:54,003 - process2mis.py[line:95] - INFO: **************************************************
+2017-08-13 11:31:54,003 - process2mis.py[line:96] - INFO: begin generate PERSON fmt file.......
+2017-08-13 11:31:54,003 - table.py[line:113] - INFO: PERSON.fmt:
+2017-08-13 11:31:54,003 - table.py[line:114] - INFO: 8.0
+2017-08-13 11:31:54,003 - table.py[line:115] - INFO: 7
+2017-08-13 11:31:54,003 - table.py[line:120] - INFO: 1    SQLCHAR    0    0    "!&"    1        name        Chinese_PRC_Stroke_CI_AS
+
+2017-08-13 11:31:54,003 - table.py[line:120] - INFO: 2    SQLCHAR    0    0    "!&"    2        age        Chinese_PRC_Stroke_CI_AS
+
+2017-08-13 11:31:54,003 - table.py[line:120] - INFO: 3    SQLCHAR    0    0    "!&"    3        address        Chinese_PRC_Stroke_CI_AS
+
+2017-08-13 11:31:54,004 - table.py[line:120] - INFO: 4    SQLCHAR    0    0    "!&"    4        favorite        Chinese_PRC_Stroke_CI_AS
+
+2017-08-13 11:31:54,004 - table.py[line:120] - INFO: 5    SQLCHAR    0    0    "!&"    5        birthday        Chinese_PRC_Stroke_CI_AS
+
+2017-08-13 11:31:54,004 - table.py[line:120] - INFO: 6    SQLCHAR    0    0    "!&"    6        salary        Chinese_PRC_Stroke_CI_AS
+
+2017-08-13 11:31:54,004 - table.py[line:125] - INFO: 7    SQLCHAR    0    0    "\n"    7        eydt        Chinese_PRC_Stroke_CI_AS
+
+2017-08-13 11:31:54,004 - process2mis.py[line:98] - INFO: generate PERSON.fmt file success;
+2017-08-13 11:31:54,004 - process2mis.py[line:95] - INFO: **************************************************
+2017-08-13 11:31:54,004 - process2mis.py[line:96] - INFO: begin generate COMPANY fmt file.......
+2017-08-13 11:31:54,004 - table.py[line:113] - INFO: COMPANY.fmt:
+2017-08-13 11:31:54,004 - table.py[line:114] - INFO: 8.0
+2017-08-13 11:31:54,004 - table.py[line:115] - INFO: 7
+2017-08-13 11:31:54,004 - table.py[line:120] - INFO: 1    SQLCHAR    0    0    "!&"    1        name        Chinese_PRC_Stroke_CI_AS
+
+2017-08-13 11:31:54,004 - table.py[line:120] - INFO: 2    SQLCHAR    0    0    "!&"    2        age        Chinese_PRC_Stroke_CI_AS
+
+2017-08-13 11:31:54,004 - table.py[line:120] - INFO: 3    SQLCHAR    0    0    "!&"    3        address        Chinese_PRC_Stroke_CI_AS
+
+2017-08-13 11:31:54,005 - table.py[line:120] - INFO: 4    SQLCHAR    0    0    "!&"    4        favorite        Chinese_PRC_Stroke_CI_AS
+
+2017-08-13 11:31:54,005 - table.py[line:120] - INFO: 5    SQLCHAR    0    0    "!&"    5        birthday        Chinese_PRC_Stroke_CI_AS
+
+2017-08-13 11:31:54,005 - table.py[line:120] - INFO: 6    SQLCHAR    0    0    "!&"    6        salary        Chinese_PRC_Stroke_CI_AS
+
+2017-08-13 11:31:54,005 - table.py[line:125] - INFO: 7    SQLCHAR    0    0    "\n"    7        eydt        Chinese_PRC_Stroke_CI_AS
+
+2017-08-13 11:31:54,005 - process2mis.py[line:98] - INFO: generate COMPANY.fmt file success;
+2017-08-13 11:31:54,005 - process2mis.py[line:95] - INFO: **************************************************
+2017-08-13 11:31:54,005 - process2mis.py[line:96] - INFO: begin generate SCHOOL fmt file.......
+2017-08-13 11:31:54,005 - table.py[line:113] - INFO: SCHOOL.fmt:
+2017-08-13 11:31:54,005 - table.py[line:114] - INFO: 8.0
+2017-08-13 11:31:54,005 - table.py[line:115] - INFO: 7
+2017-08-13 11:31:54,006 - table.py[line:120] - INFO: 1    SQLCHAR    0    0    "!&"    1        name        Chinese_PRC_Stroke_CI_AS
+
+2017-08-13 11:31:54,006 - table.py[line:120] - INFO: 2    SQLCHAR    0    0    "!&"    2        age        Chinese_PRC_Stroke_CI_AS
+
+2017-08-13 11:31:54,006 - table.py[line:120] - INFO: 3    SQLCHAR    0    0    "!&"    3        address        Chinese_PRC_Stroke_CI_AS
+
+2017-08-13 11:31:54,006 - table.py[line:120] - INFO: 4    SQLCHAR    0    0    "!&"    4        favorite        Chinese_PRC_Stroke_CI_AS
+
+2017-08-13 11:31:54,006 - table.py[line:120] - INFO: 5    SQLCHAR    0    0    "!&"    5        birthday        Chinese_PRC_Stroke_CI_AS
+
+2017-08-13 11:31:54,006 - table.py[line:120] - INFO: 6    SQLCHAR    0    0    "!&"    6        salary        Chinese_PRC_Stroke_CI_AS
+
+2017-08-13 11:31:54,006 - table.py[line:125] - INFO: 7    SQLCHAR    0    0    "\n"    7        eydt        Chinese_PRC_Stroke_CI_AS
+
+2017-08-13 11:31:54,006 - process2mis.py[line:98] - INFO: generate SCHOOL.fmt file success;

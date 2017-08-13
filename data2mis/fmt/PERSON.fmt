@@ -1,0 +1,16 @@
+8.0
+7
+1    SQLCHAR    0    0    "!&"    1        name        Chinese_PRC_Stroke_CI_AS
+
+2    SQLCHAR    0    0    "!&"    2        age        Chinese_PRC_Stroke_CI_AS
+
+3    SQLCHAR    0    0    "!&"    3        address        Chinese_PRC_Stroke_CI_AS
+
+4    SQLCHAR    0    0    "!&"    4        favorite        Chinese_PRC_Stroke_CI_AS
+
+5    SQLCHAR    0    0    "!&"    5        birthday        Chinese_PRC_Stroke_CI_AS
+
+6    SQLCHAR    0    0    "!&"    6        salary        Chinese_PRC_Stroke_CI_AS
+
+7    SQLCHAR    0    0    "\n"    7        eydt        Chinese_PRC_Stroke_CI_AS
+
